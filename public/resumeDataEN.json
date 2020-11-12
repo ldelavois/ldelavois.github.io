@@ -1,18 +1,23 @@
 {
     "main": {
-      "name": "Davina Griss",
-      "title": "Front-end Developer",
-      "description": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "name": "Ludovic DELAVOIS",
+      "title": "Full Stack Developer",
+      "description": "My name is Ludovic DELAVOIS and I live in Bordeaux. I'm a Full Stack Developer with a MS degree in Computer Science from University of Bordeaux. I've worked on projects in Spring/Angular and also .NET Core. I've created this website to show my experience and my projects.",
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/ldelavois",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/ludovic-delavois",
+          "class": "fab fa-linkedin"
+        },
+        {
+          "name": "twitter",
+          "url": "https://www.twitter.com/ludodelavois",
+          "class": "fab fa-twitter"
         }
       ],
       "image": "myProfile.jpg"
@@ -20,34 +25,14 @@
     "resume": {
       "skills": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
           "name": "Angular",
           "class": "devicon-angularjs-plain",
           "level": "80"
         },
         {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
           "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
         },
         {
           "name": "Bootstrap",
@@ -60,8 +45,23 @@
           "level": "65"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "60"
+        },
+        {
+          "name": "Java",
+          "class": "devicon-java-plain",
+          "level": "60"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "60"
+        },
+        {
+          "name": ".NET",
+          "class": "devicon-dot-net-plain",
           "level": "60"
         }
       ]

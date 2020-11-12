@@ -18,9 +18,10 @@ class App extends Component {
   }
 
   setLanguage(language, idName) {
-    document.getElementById(idName).removeAttribute('filter', 'brightness(40%)');
-    var flagId = language === 'pl' ? 'english-flag' : 'polish-flag';
-    document.getElementById(flagId).setAttribute('filter', 'brightness(40%)')
+    //document.getElementById(idName).removeAttribute('filter', 'brightness(40%)');
+    //var flagId = language === 'pl' ? 'english-flag' : 'polish-flag';
+    var flagId ='english-flag';
+    //document.getElementById(flagId).setAttribute('filter', 'brightness(100%)')
     document.documentElement.lang = language;
     var langPath = document.documentElement.lang === 'pl' ? '/resumeData.json' : '/resumeDataEN.json';
     this.getResumeData(langPath);
@@ -49,7 +50,7 @@ class App extends Component {
       <div>
         <Header data={this.state.resumeData.main} />
         <div className="col-md-12 mx-auto text-center language">
-            <div
+            {/* <div
               onClick={() => this.setLanguage('pl', 'polish-flag')}
               style={{display:'inline'}}>
               <span
@@ -59,8 +60,8 @@ class App extends Component {
                 style={{ fontSize: '50px', cursor: 'pointer' }}
                 id="polish-flag"
               ></span>
-            </div>
-            <div
+            </div> */}
+            {/* <div
               onClick={() => this.setLanguage('en', 'english-flag')}
               style={{display:'inline'}}>
               <span
@@ -70,7 +71,7 @@ class App extends Component {
                 style={{ fontSize: '50px', cursor: 'pointer' }}
                 id="english-flag"
               ></span>
-            </div>
+            </div> */}
           </div>
         <About data={this.state.resumeData.main} />
         <Projects data={this.state.resumeData.projects} />
