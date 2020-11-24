@@ -37,7 +37,6 @@ class Experience extends Component {
               color: '#fff',
               textAlign: 'center',
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
             key={i}
           >
             <div style={{ textAlign: 'left', marginBottom: '4px' }}>
@@ -76,16 +75,6 @@ class Experience extends Component {
         <div className="col-md-8 mx-auto">
           <VerticalTimeline>
             {work}
-            <VerticalTimelineElement
-              iconStyle={{
-                background: '#9bb9d7',
-                color: '#fff',
-                textAlign: 'center',
-              }}
-              icon={
-                <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
-              }
-            />
           </VerticalTimeline>
         </div>
       </section>

@@ -68,102 +68,92 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "description": "App that handles adoption  :)",
+        "title": "Smart Parking",
+        "description": "Atos InnoLab Internship. Created RESTFUL API microservices with Java Spring Boot and created a web page with Angular for Smart Parking.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/smart_parking/smart_parking.jpg",
+          "images/portfolio/smart_parking/atos_logo.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://ludovic-delavois.emi.u-bordeaux.fr/stages/Rapport_stage_DELAVOIS_Atos.pdf",
         "technologies": [
           {
             "class": "devicon-angularjs-plain",
             "name": "Angular"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-java-plain",
+            "name": "Java"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
           }
         ]
       },
       {
-        "title": "Photography",
-        "description": "Testing our new camera and photo editor app.",
+        "title": "Robotic",
+        "description": "Project for school with Rhoban team for RoboCup. Created trajectories in python with selected positions of the robot.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/robotic/rhoban.jpg",
+          "images/portfolio/robotic/rhoban_logo.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/ldelavois/PFE_datatreatment",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-python-plain"
+          }
+        ]
+      },
+      {
+        "title": "Biopelagos",
+        "description": "Biopelagos project at SPC (Noumea, NEW-CALEDONIA). SQL Server database management and web development with ASP.NET Core and Leaflet.",
+        "images": [
+          "images/portfolio/biopelagos/biopelagos_website.jpg",
+          "images/portfolio/biopelagos/spc_logo.png"
+        ],
+        "url": "https://github.com/ldelavois/WebBiopelagos",
+        "technologies": [
+          {
+            "class": "devicon-dot-net-plain",
+            "name": ".NET Core"
           },
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
           }
         ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "description": "App that allows to view the object via drone perspective.",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
       }
     ],
     "experience": [
       {
-        "company": "Company 3398",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "ATOS",
+        "title": "Full Stack Developer Intern",
+        "years": "04/2020 - 10/2020",
         "mainTech": [
-          "Angular 8/9/10"
+          "Angular 4"
         ],
         "technologies": [
           "REST API",
-          "RxJS",
-          "JavaScript",
+          "Spring Boot",
+          "Angular",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "MongoDB",
+          "Python",
+          "Leaflet"
         ]
       },
       {
-        "company": "Company 811",
-        "title": "Angular Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "SPC",
+        "title": "Full Stack Developer Intern",
+        "years": "01/2019 - 06/2019",
         "mainTech": [
-          "Angular 7/8"
+          "ASP.NET Core"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "SQL Server",
+          ".NET",
+          "ASP.NET Core",
+          "Leaflet"
         ]
       }
     ]

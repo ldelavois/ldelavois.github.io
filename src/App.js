@@ -49,8 +49,8 @@ class App extends Component {
     return (
       <div>
         <Header data={this.state.resumeData.main} />
-        <div className="col-md-12 mx-auto text-center language">
-            {/* <div
+        {/* <div className="col-md-12 mx-auto text-center language">
+            <div
               onClick={() => this.setLanguage('pl', 'polish-flag')}
               style={{display:'inline'}}>
               <span
@@ -60,8 +60,8 @@ class App extends Component {
                 style={{ fontSize: '50px', cursor: 'pointer' }}
                 id="polish-flag"
               ></span>
-            </div> */}
-            {/* <div
+            </div>
+            <div
               onClick={() => this.setLanguage('en', 'english-flag')}
               style={{display:'inline'}}>
               <span
@@ -71,8 +71,8 @@ class App extends Component {
                 style={{ fontSize: '50px', cursor: 'pointer' }}
                 id="english-flag"
               ></span>
-            </div> */}
-          </div>
+            </div>
+          </div> */}
         <About data={this.state.resumeData.main} />
         <Projects data={this.state.resumeData.projects} />
         <Skills data={this.state.resumeData.resume} />

@@ -63,25 +63,24 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "description": "Aplikacja do zarządzania procesem adopcji :)",
+        "title": "Smart Parking",
+        "description": "Atos InnoLab Internship",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/smart_parking/atos.png"
         ],
-        "url": "https://github.com",
+        "url": "https://ludovic-delavois.emi.u-bordeaux.fr/stages/Rapport_stage_DELAVOIS_Atos.pdf",
         "technologies": [
           {
             "class": "devicon-angularjs-plain",
             "name": "Angular"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-java-plain",
+            "name": "Java"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
           }
         ]
       },
