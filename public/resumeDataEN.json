@@ -108,7 +108,7 @@
         "title": "Biopelagos",
         "description": "Biopelagos project at SPC (Noumea, NEW-CALEDONIA). SQL Server database management and web development with ASP.NET Core and Leaflet.",
         "images": [
-          "images/portfolio/biopelagos/biopelagos_website.jpg",
+          "images/portfolio/biopelagos/biopelagos_website.JPG",
           "images/portfolio/biopelagos/spc_logo.png"
         ],
         "url": "https://github.com/ldelavois/WebBiopelagos",
