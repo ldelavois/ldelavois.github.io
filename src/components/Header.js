@@ -3,46 +3,45 @@ import Typical from 'react-typical';
 import Switch from 'react-switch';
 
 class Header extends Component {
-  constructor() {
-    super();
-    this.state = { checked: false };
-    this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
-  }
-
-  onThemeSwitchChange(checked) {
-    this.setState({ checked });
-    this.setTheme();
-  }
-
-  setTheme() {
-    var dataThemeAttribute = 'data-theme';
-    var body = document.body;
-    var newTheme =
-      body.getAttribute(dataThemeAttribute) === 'dark' ? 'light' : 'dark';
-    body.setAttribute(dataThemeAttribute, newTheme);
-  }
-
-  render() {
-    if (this.props.data) {
-      var name = this.props.data.name;
-      var title = this.props.data.title;
+    constructor() {
+        super();
+        this.state = { checked: false };
+        this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
     }
 
-    return (
-      <header id="home">
-        <div className="row banner">
-          <div className="col-md-12 mx-auto pt-5">
-            <div style={{ paddingBottom: '10px' }}>
-              <h1>
-                <Typical steps={[name]} wrapper="p" />
-              </h1>
-              <h1>
-                <Typical steps={[title]} wrapper="p" />
-              </h1>
-            </div>
-          </div>
-          
-          {/* <Switch
+    onThemeSwitchChange(checked) {
+        this.setState({ checked });
+        this.setTheme();
+    }
+
+    setTheme() {
+        var dataThemeAttribute = 'data-theme';
+        var body = document.body;
+        var newTheme =
+            body.getAttribute(dataThemeAttribute) === 'dark' ? 'light' : 'dark';
+        body.setAttribute(dataThemeAttribute, newTheme);
+    }
+
+    render() {
+        if (this.props.data) {
+            var name = this.props.data.name;
+            var title = this.props.data.title;
+        }
+
+        return (
+            <header id="home">
+                <div className="row aligner" style={{ height: '100%' }}>
+                    <div class="col-md-12">
+                        <div>
+                            <h1>
+                                <Typical steps={[name]} wrapper="p" />
+                            </h1>
+                            <h1>
+                                <Typical steps={[title]} wrapper="p" />
+                            </h1>
+                        </div>
+
+                        {/* <Switch
             checked={this.state.checked}
             onChange={this.onThemeSwitchChange}
             offColor="#baaa80"
@@ -82,10 +81,11 @@ class Header extends Component {
             }
             id="icon-switch"
           /> */}
-        </div>
-      </header>
-    );
-  }
+                    </div>
+                </div>
+            </header>
+        );
+    }
 }
 
 export default Header;
