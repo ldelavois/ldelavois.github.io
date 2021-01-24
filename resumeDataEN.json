@@ -2,7 +2,7 @@
     "main": {
       "name": "Ludovic DELAVOIS",
       "title": "Full Stack Developer",
-      "description": "My name is Ludovic DELAVOIS and I live in Bordeaux. I'm a Full Stack Developer with a MS degree in Computer Science from University of Bordeaux. I've worked on projects in Spring/Angular and also .NET Core. I've created this website to show my experience and my projects.",
+      "description": "My name is Ludovic DELAVOIS and I live in Bordeaux. I'm a Full Stack Developer working at CIS Valley. I've also worked on projects in Spring/Angular and also .NET Core. This website has been created to show my projects and improve my programming skills.",
       "social": [
         {
           "name": "github",
@@ -124,37 +124,50 @@
         ]
       }
     ],
-    "experience": [
-      {
-        "company": "ATOS",
-        "title": "Full Stack Developer Intern",
-        "years": "04/2020 - 10/2020",
-        "mainTech": [
-          "Angular 4"
-        ],
-        "technologies": [
-          "REST API",
-          "Spring Boot",
-          "Angular",
-          "Bootstrap",
-          "MongoDB",
-          "Python",
-          "Leaflet"
-        ]
-      },
-      {
-        "company": "SPC",
-        "title": "Full Stack Developer Intern",
-        "years": "01/2019 - 06/2019",
-        "mainTech": [
-          "ASP.NET Core"
-        ],
-        "technologies": [
-          "SQL Server",
-          ".NET",
-          "ASP.NET Core",
-          "Leaflet"
-        ]
-      }
-    ]
+  "experience": [
+    {
+      "company": "CIS Valley",
+      "title": "Full Stack Developer",
+      "years": "12/2020 - Now",
+      "mainTech": [
+        ".NET/.NET Core"
+      ],
+      "technologies": [
+        ".NET/.NET Core",
+        "Vue.JS",
+        "Bootstrap"
+      ]
+    },
+    {
+      "company": "ATOS",
+      "title": "Full Stack Developer Intern",
+      "years": "04/2020 - 10/2020",
+      "mainTech": [
+        "Angular 4"
+      ],
+      "technologies": [
+        "REST API",
+        "Spring Boot",
+        "Angular",
+        "Bootstrap",
+        "MongoDB",
+        "Python",
+        "Leaflet"
+      ]
+    },
+    {
+      "company": "SPC",
+      "title": "Full Stack Developer Intern",
+      "years": "01/2019 - 06/2019",
+      "mainTech": [
+        "ASP.NET Core"
+      ],
+      "technologies": [
+        "SQL Server",
+        ".NET",
+        "ASP.NET Core",
+        "Leaflet"
+      ]
+    }
+  ]
   }
