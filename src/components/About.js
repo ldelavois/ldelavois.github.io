@@ -3,8 +3,9 @@ import React, { Component } from 'react';
 class About extends Component {
   render() {
     if (this.props.data) {
-      var sectionName = document.documentElement.lang === 'pl' ? 'O mnie' : 'About me';
-      var hello = document.documentElement.lang === 'pl' ? 'Cześć' : 'Hello';
+      var sectionName = document.documentElement.lang === 'fr' ? 'A propos' : 'About me';
+      var hello = document.documentElement.lang === 'fr' ? 'Bonjour' : 'Hello';
+      var welcome = document.documentElement.lang === 'fr' ? 'Bienvenue sur mon site web' : 'Welcome on my website';
       var profilepic = 'images/' + this.props.data.image;
       var about = this.props.data.description;
     }
@@ -59,7 +60,7 @@ class About extends Component {
                     }}
                   >
                     <br />
-                      <span className="wave">{hello} ! Welcome on my website! </span>
+                      <span className="wave">{hello}! {welcome}!</span>
                     <br />
                     <br />
                     {about}

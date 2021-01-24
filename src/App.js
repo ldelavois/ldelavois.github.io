@@ -17,18 +17,48 @@ class App extends Component {
     };
   }
 
-  setLanguage(language, idName) {
-    //document.getElementById(idName).removeAttribute('filter', 'brightness(40%)');
-    //var flagId = language === 'pl' ? 'english-flag' : 'polish-flag';
-    var flagId ='english-flag';
-    //document.getElementById(flagId).setAttribute('filter', 'brightness(100%)')
-    document.documentElement.lang = language;
-    var langPath = document.documentElement.lang === 'fr' ? '/resumeDataFR.json' : '/resumeDataEN.json';
-    this.getResumeData(langPath);
+  applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
+    this.swapCurrentlyActiveLanguage(oppositeLangIconId);
+    document.documentElement.lang = pickedLanguage;
+    var resumePath =
+      document.documentElement.lang === window.$primaryLanguage
+        ? `resumeDataEN.json`
+        : `resumeDataFR.json`;
+    this.loadResumeFromPath(resumePath);
+  }
+
+  swapCurrentlyActiveLanguage(oppositeLangIconId) {
+    var pickedLangIconId =
+      oppositeLangIconId === window.$primaryLanguageIconId
+        ? window.$secondaryLanguageIconId
+        : window.$primaryLanguageIconId;
+    document
+      .getElementById(oppositeLangIconId)
+      .removeAttribute("filter", "brightness(40%)");
+    document
+      .getElementById(pickedLangIconId)
+      .setAttribute("filter", "brightness(40%)");
   }
 
   componentDidMount() {
-    this.setLanguage('en', 'english-flag');
+    this.applyPickedLanguage(
+      window.$primaryLanguage,
+      window.$secondaryLanguageIconId
+    );
+  }
+
+  loadResumeFromPath(path) {
+    $.ajax({
+      url: path,
+      dataType: "json",
+      cache: false,
+      success: function (data) {
+        this.setState({ resumeData: data });
+      }.bind(this),
+      error: function (xhr, status, err) {
+        alert(err);
+      },
+    });
   }
 
   getResumeData(path) {
@@ -49,6 +79,40 @@ class App extends Component {
     return (
       <div>
         <Header data={this.state.resumeData.main} />
+        <div className="col-md-12 mx-auto text-center language">
+          <div
+            onClick={() =>
+              this.applyPickedLanguage(
+                window.$primaryLanguage,
+                window.$secondaryLanguageIconId
+              )
+            }
+            style={{ display: "inline" }}
+          >
+            <span
+              className="iconify language-icon mr-5"
+              data-icon="twemoji-flag-for-flag-united-kingdom"
+              data-inline="false"
+              id={window.$primaryLanguageIconId}
+            ></span>
+          </div>
+          <div
+            onClick={() =>
+              this.applyPickedLanguage(
+                window.$secondaryLanguage,
+                window.$primaryLanguageIconId
+              )
+            }
+            style={{ display: "inline" }}
+          >
+            <span
+              className="iconify language-icon"
+              data-icon="twemoji-flag-for-flag-france"
+              data-inline="false"
+              id={window.$secondaryLanguageIconId}
+            ></span>
+          </div>
+        </div>
         <About data={this.state.resumeData.main} />
         <Projects data={this.state.resumeData.projects} />
         <Skills data={this.state.resumeData.resume} />

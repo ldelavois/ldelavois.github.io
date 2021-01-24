@@ -9,7 +9,7 @@ import Badge from 'react-bootstrap/Badge';
 class Experience extends Component {
   render() {
     if (this.props.data) {
-      var sectionName = document.documentElement.lang === 'pl' ? 'Doświadczenie' : 'Experience';
+      var sectionName = document.documentElement.lang === 'fr' ? 'Expériences' : 'Experience';
       var work = this.props.data.map(function (work, i) {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
@@ -75,6 +75,16 @@ class Experience extends Component {
         <div className="col-md-8 mx-auto">
           <VerticalTimeline>
             {work}
+            <VerticalTimelineElement
+              iconStyle={{
+                background: "#AE944F",
+                color: "#fff",
+                textAlign: "center",
+              }}
+              icon={
+                <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
+              }
+            />
           </VerticalTimeline>
         </div>
       </section>

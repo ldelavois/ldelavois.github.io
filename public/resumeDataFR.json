@@ -23,7 +23,9 @@
     "image": "myProfile.jpg"
   },
   "resume": {
-    "skills": [
+    "skills": 
+    [
+
       {
         "name": "Angular",
         "class": "devicon-angularjs-plain",

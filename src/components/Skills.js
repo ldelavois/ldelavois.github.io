@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Skills extends Component {
   render() {
     if (this.props.data) {
-      var sectionName = document.documentElement.lang === 'pl' ? 'Umiejętności' : 'Skills';
+      var sectionName = document.documentElement.lang === 'fr' ? 'Compétences' : 'Skills';
       var skills = this.props.data.skills.map(function (skills, i) {
         return (
           <li className="list-inline-item mx-3" key={i}>

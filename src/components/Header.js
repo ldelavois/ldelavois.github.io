@@ -1,25 +1,10 @@
 import React, { Component } from 'react';
 import Typical from 'react-typical';
-import Switch from 'react-switch';
 
 class Header extends Component {
     constructor() {
         super();
         this.state = { checked: false };
-        this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
-    }
-
-    onThemeSwitchChange(checked) {
-        this.setState({ checked });
-        this.setTheme();
-    }
-
-    setTheme() {
-        var dataThemeAttribute = 'data-theme';
-        var body = document.body;
-        var newTheme =
-            body.getAttribute(dataThemeAttribute) === 'dark' ? 'light' : 'dark';
-        body.setAttribute(dataThemeAttribute, newTheme);
     }
 
     render() {
@@ -30,8 +15,8 @@ class Header extends Component {
 
         return (
             <header id="home">
-                <div className="row aligner" style={{ height: '100%' }}>
-                    <div class="col-md-12">
+                <div className="row aligner" style={{ height: '100%'}}>
+                    <div className="col-md-12" style={{paddingTop:'250px'}}>
                         <div>
                             <h1>
                                 <Typical steps={[name]} wrapper="p" />
