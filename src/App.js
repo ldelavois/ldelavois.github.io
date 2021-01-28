@@ -2,18 +2,19 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 import './App.scss';
 import Header from './components/Header';
-import Footer from './components/Footer';
-import About from './components/About';
-import Experience from './components/Experience';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
+// import Footer from './components/Footer';
+// import About from './components/About';
+// import Experience from './components/Experience';
+// import Projects from './components/Projects';
+// import Skills from './components/Skills';
 
 class App extends Component {
   constructor(props) {
     super();
     this.state = {
       foo: 'bar',
-      resumeData: {}
+      resumeData: {},
+      sharedData: {}
     };
   }
 
@@ -22,8 +23,8 @@ class App extends Component {
     document.documentElement.lang = pickedLanguage;
     var resumePath =
       document.documentElement.lang === window.$primaryLanguage
-        ? `resumeDataEN.json`
-        : `resumeDataFR.json`;
+      ? `res_primaryLanguage.json`
+      : `res_secondaryLanguage.json`;
     this.loadResumeFromPath(resumePath);
   }
 
@@ -33,14 +34,15 @@ class App extends Component {
         ? window.$secondaryLanguageIconId
         : window.$primaryLanguageIconId;
     document
-      .getElementById(oppositeLangIconId)
+      .getElementById(pickedLangIconId)
       .removeAttribute("filter", "brightness(40%)");
     document
-      .getElementById(pickedLangIconId)
+      .getElementById(oppositeLangIconId)
       .setAttribute("filter", "brightness(40%)");
   }
 
   componentDidMount() {
+    this.loadSharedData();
     this.applyPickedLanguage(
       window.$primaryLanguage,
       window.$secondaryLanguageIconId
@@ -61,13 +63,14 @@ class App extends Component {
     });
   }
 
-  getResumeData(path) {
+  loadSharedData() {
     $.ajax({
-      url: path,
-      dataType: 'json',
+      url: `portfolio_shared_data.json`,
+      dataType: "json",
       cache: false,
       success: function (data) {
-        this.setState({ resumeData: data });
+        this.setState({ sharedData: data });
+        document.title = `${this.state.sharedData.basic_info.name}`;
       }.bind(this),
       error: function (xhr, status, err) {
         alert(err);
@@ -78,7 +81,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header data={this.state.resumeData.main} />
+        <Header resumeBasicInfo={this.state.resumeData.basic_info}
+          sharedBasicInfo={this.state.sharedData.basic_info}/>
         <div className="col-md-12 mx-auto text-center language">
           <div
             onClick={() =>
@@ -113,11 +117,12 @@ class App extends Component {
             ></span>
           </div>
         </div>
-        <About data={this.state.resumeData.main} />
+        {/* <About resumeBasicInfo={this.state.resumeData.basic_info}
+          sharedBasicInfo={this.state.sharedData.basic_info}/>
         <Projects data={this.state.resumeData.projects} />
         <Skills data={this.state.resumeData.resume} />
         <Experience data={this.state.resumeData.experience} />
-        <Footer data={this.state.resumeData.main} />
+        <Footer data={this.state.resumeData.main} /> */}
       </div>
     );
   }

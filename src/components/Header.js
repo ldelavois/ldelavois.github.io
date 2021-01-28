@@ -2,16 +2,14 @@ import React, { Component } from 'react';
 import Typical from 'react-typical';
 
 class Header extends Component {
-    constructor() {
-        super();
-        this.state = { checked: false };
-    }
 
     render() {
-        if (this.props.data) {
-            var name = this.props.data.name;
-            var title = this.props.data.title;
+        if (this.props.sharedBasicInfo) {
+            var name = this.props.sharedBasicInfo.name;
         }
+        if (this.props.resumeBasicInfo) {
+          var title = this.props.resumeBasicInfo.title;
+      }
 
         return (
             <header id="home">

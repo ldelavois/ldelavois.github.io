@@ -1,19 +1,19 @@
 {
   "basic_info": {
-    "title": "Développeur Full Stack",
+    "title": "DÃ©veloppeur Full Stack",
     "description_header": "Bonjour",
-    "description": "Je m'appelle Ludovic DELAVOIS et j'habite à Bordeaux. Je suis développeur Full Stack .NET travaillant chez CIS Valley. Je possède également plusieurs expériences en Spring/Angular et .NET Core. Ce site web a été créé pour montrer mes projets et monter en compétences.",
+    "description": "Je m'appelle Ludovic DELAVOIS et j'habite Ã  Bordeaux. Je suis dÃ©veloppeur Full Stack .NET travaillant chez CIS Valley. Je possÃ¨de Ã©galement plusieurs expÃ©riences en Spring/Angular et .NET Core. Ce site web a Ã©tÃ© crÃ©Ã© pour montrer mes projets et monter en compÃ©tences.",
     "section_name": {
       "about": "A propos",
       "projects": "Projets",
-      "skills": "Compétences",
-      "experience": "Expériences"
+      "skills": "CompÃ©tences",
+      "experience": "ExpÃ©riences"
     }
   },
   "projects": [
     {
       "title": "Parking intelligent",
-      "description": "Stage à l'InnoLab' chez Atos. Création d'une API REST et microservices avec Spring Boot (Java) et création d'une page web avec Angular dans le cadre d'un système intelligent de gestion de parkings.",
+      "description": "Stage Ã  l'InnoLab' chez Atos. CrÃ©ation d'une API REST et microservices avec Spring Boot (Java) et crÃ©ation d'une page web avec Angular dans le cadre d'un systÃ¨me intelligent de gestion de parkings.",
       "images": [
         "images/portfolio/smart_parking/smart_parking.jpg",
         "images/portfolio/smart_parking/atos_logo.jpg"
@@ -36,7 +36,7 @@
     },
     {
       "title": "Robotique",
-      "description": "Projet universitaire avec l'équipe Rhoban pour la RoboCup. Création automatique de trajectoires avec Python en fonction des positions retournées par un robot humanoïde.",
+      "description": "Projet universitaire avec l'Ã©quipe Rhoban pour la RoboCup. CrÃ©ation automatique de trajectoires avec Python en fonction des positions retournÃ©es par un robot humanoÃ¯de.",
       "images": [
         "images/portfolio/robotic/rhoban.jpg",
         "images/portfolio/robotic/rhoban_logo.png"
@@ -50,7 +50,7 @@
     },
     {
       "title": "Biopelagos",
-      "description": "Projet Biopelagos à la CPS à Nouméa (NOUVELLE-CALEDONIE). Création d'une application .NET Windows Forms et gestion de base de données SQL Server. Développement web avec ASP.NET Core et Leaflet.",
+      "description": "Projet Biopelagos Ã  la CPS de NouÃ©ï¿½a (NOUVELLE-CALEDONIE). CrÃ©ation d'une application .NET Windows Forms et gestion de base de donnï¿½es SQL Server. DÃ©veloppement web avec ASP.NET Core et Leaflet.",
       "images": [
         "images/portfolio/biopelagos/biopelagos_website.JPG",
         "images/portfolio/biopelagos/spc_logo.png"
@@ -84,7 +84,7 @@
     },
     {
       "company": "ATOS",
-      "title": "Stagiaire développeur Full Stack",
+      "title": "Stagiaire dÃ©veloppeur Full Stack",
       "years": "04/2020 - 10/2020",
       "mainTech": [
         "Angular 4"
@@ -101,7 +101,7 @@
     },
     {
       "company": "La CPS",
-      "title": "Stagiaire développeur Full Stack",
+      "title": "Stagiaire dÃ©veloppeur Full Stack",
       "years": "01/2019 - 06/2019",
       "mainTech": [
         "ASP.NET Core"
