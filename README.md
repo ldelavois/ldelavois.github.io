@@ -20,6 +20,7 @@ Secured and optimized with CloudFare
 <!-- <a href="https://tholman.com/github-corners/">GitHub Ref Corner</a> -->
 
 <h3>TODO list:</h3>
+
 - [ ] Edit design and colors
 
 - [ ] Add responsive nav bar
