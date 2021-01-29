@@ -19,6 +19,15 @@ Secured and optimized with CloudFare
 <a href="https://www.w3docs.com/snippets/css/how-to-create-polaroid-image-with-css.html#">Polaroid effect</a> <br/>
 <!-- <a href="https://tholman.com/github-corners/">GitHub Ref Corner</a> -->
 
+<h3>TODO list:</h3>
+- Edit design and colors
+- Add responsive nav bar
+- Correct pictures scaling
+- Add github info via github API
+- Make more Back End projects to connect with this website
+
+
+
 
 
 Template by <a href="https://dorota1997.github.io/react-frontend-dev-portfolio">Dorota 1997</a> with React.
