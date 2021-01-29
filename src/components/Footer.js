@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 
 class Footer extends Component {
   render() {
-    if (this.props.data) {
-      var networks = this.props.data.social.map(function (network) {
+    if (this.props.sharedBasicInfo) {
+      var name = this.props.sharedBasicInfo.name;
+      var networks = this.props.sharedBasicInfo.social.map(function (network) {
         return (
           <span key={network.name} className="m-4">
             <a href={network.url}>
@@ -21,7 +22,7 @@ class Footer extends Component {
 
           <div className="copyright py-4 text-center">
             <div className="container">
-              <small>Copyright &copy; Ludovic DELAVOIS</small>
+              <small>Copyright &copy; {name}</small>
             </div>
           </div>
         </div>

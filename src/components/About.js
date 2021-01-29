@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 
 class About extends Component {
   render() {
-    if (this.props.data) {
-      var sectionName = document.documentElement.lang === 'fr' ? 'A propos' : 'About me';
-      var hello = document.documentElement.lang === 'fr' ? 'Bonjour' : 'Hello';
-      var welcome = document.documentElement.lang === 'fr' ? 'Bienvenue sur mon site web' : 'Welcome on my website';
-      var profilepic = 'images/' + this.props.data.image;
-      var about = this.props.data.description;
-    }
+      if (this.props.sharedBasicInfo) {
+        var profilepic = "images/" + this.props.sharedBasicInfo.image;
+      }
+      if (this.props.resumeBasicInfo) {
+        var sectionName = this.props.resumeBasicInfo.section_name.about;
+        var hello = this.props.resumeBasicInfo.description_header;
+        var about = this.props.resumeBasicInfo.description;
+      }
 
     return (
       <section id="about">
@@ -60,7 +61,7 @@ class About extends Component {
                     }}
                   >
                     <br />
-                      <span className="wave">{hello}! {welcome}!</span>
+                      <span className="wave">{hello}</span>
                     <br />
                     <br />
                     {about}

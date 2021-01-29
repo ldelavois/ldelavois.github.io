@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 import './App.scss';
 import Header from './components/Header';
-// import Footer from './components/Footer';
-// import About from './components/About';
-// import Experience from './components/Experience';
-// import Projects from './components/Projects';
-// import Skills from './components/Skills';
+import About from './components/About';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Experience from './components/Experience';
+import Footer from './components/Footer';
 
 class App extends Component {
   constructor(props) {
@@ -117,12 +117,19 @@ class App extends Component {
             ></span>
           </div>
         </div>
-        {/* <About resumeBasicInfo={this.state.resumeData.basic_info}
+        <About resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}/>
-        <Projects data={this.state.resumeData.projects} />
-        <Skills data={this.state.resumeData.resume} />
-        <Experience data={this.state.resumeData.experience} />
-        <Footer data={this.state.resumeData.main} /> */}
+        <Projects
+          resumeProjects={this.state.resumeData.projects}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
+        <Skills resumeBasicInfo={this.state.resumeData.basic_info}
+        sharedSkills={this.state.sharedData.skills} />
+        <Experience
+          resumeExperience={this.state.resumeData.experience}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
+        <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
     );
   }
