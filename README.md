@@ -23,7 +23,7 @@ Secured and optimized with CloudFare
 
 - [ ] Edit design and colors
 
-- [ ] Add responsive nav bar
+- [x] ~~Add responsive nav bar~~
 
 - [ ] Correct pictures scaling
 
