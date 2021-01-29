@@ -4,6 +4,7 @@
     "description_header": "Bonjour! Bienvenue sur mon site web!",
     "description": "Je m'appelle Ludovic DELAVOIS et j'habite à Bordeaux. Je suis développeur Full Stack .NET travaillant chez CIS Valley. Je possède également plusieurs expériences en Spring/Angular et .NET Core. Ce site web a été créé pour montrer mes projets et monter en compétences.",
     "section_name": {
+      "home" : "Accueil",
       "about": "A propos",
       "projects": "Projets",
       "skills": "Compétences",

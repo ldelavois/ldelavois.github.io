@@ -4,6 +4,7 @@
     "description_header": "Hello! Welcome on my website!",
     "description": "My name is Ludovic DELAVOIS and I live in Bordeaux. I'm a Full Stack Developer working at CIS Valley. I've also worked on projects in Spring/Angular and also .NET Core. This website has been created to show my projects and improve my programming skills.",
     "section_name": {
+      "home" : "Home",
       "about": "About me",
       "projects": "Projects",
       "skills": "Skills",
