@@ -1,0 +1,67 @@
+{
+  "basic_info": {
+    "name": "Ludovic DELAVOIS",
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/ldelavois",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/ludovic-delavois",
+        "class": "fab fa-linkedin"
+      },
+      {
+        "name": "twitter",
+        "url": "https://www.twitter.com/ludodelavois",
+        "class": "fab fa-twitter"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "Angular",
+        "class": "devicon-angularjs-plain",
+        "level": "80"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "85"
+      },
+      {
+        "name": "C#",
+        "class": "devicon-csharp-plain",
+        "level": "65"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "60"
+      },
+      {
+        "name": "Java",
+        "class": "devicon-java-plain",
+        "level": "60"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "60"
+      },
+      {
+        "name": ".NET",
+        "class": "devicon-dot-net-plain",
+        "level": "60"
+      }
+    ]
+  }
+}
