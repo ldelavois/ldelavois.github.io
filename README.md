@@ -20,11 +20,17 @@ Secured and optimized with CloudFare
 <!-- <a href="https://tholman.com/github-corners/">GitHub Ref Corner</a> -->
 
 <h3>TODO list:</h3>
-- Edit design and colors
-- Add responsive nav bar
-- Correct pictures scaling
-- Add github info via github API
-- Make more Back End projects to connect with this website
+- [ ] Edit design and colors
+
+- [ ] Add responsive nav bar
+
+- [ ] Correct pictures scaling
+
+- [ ] Add github info via github API
+
+- [ ] Make more Back End projects to connect with this website
+
+- [ ] Host json data into a cloud Database and join with an API
 
 
 
