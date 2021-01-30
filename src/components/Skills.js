@@ -10,10 +10,10 @@ class Skills extends Component {
           <span>
             <div className="text-center skills-tile">
               <i className={skills.class} style={{ fontSize: '220%' }}>
-                <p className="text-center" style={{ fontSize: '30%', marginTop: '4px' }}>
+              </i>
+                <p className="text-center" style={{marginTop: '4px' }}>
                   {skills.name}
                 </p>
-              </i>
             </div>
           </span>
         </li>

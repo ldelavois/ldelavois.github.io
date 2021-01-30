@@ -153,7 +153,10 @@ class App extends Component {
           resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
-        <Hobbies resumeBasicInfo={this.state.resumeData.basic_info}/>
+        <Hobbies 
+        resumeBasicInfo={this.state.resumeData.basic_info}
+        resumeHobbies = {this.state.resumeData.hobbies}
+        />
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
     );
