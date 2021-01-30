@@ -8,7 +8,8 @@
       "about": "A propos",
       "projects": "Projets",
       "skills": "Compétences",
-      "experience": "Expériences"
+      "experience": "Expériences",
+      "hobbies" : "Loisirs"
     }
   },
   "projects": [
@@ -113,6 +114,28 @@
         "ASP.NET Core",
         "Leaflet"
       ]
+    }
+  ],
+  "hobbies":[
+    {
+      "name": "Tennis",
+      "icon" : "mdi-tennis"
+    },
+    {
+      "name": "Football",
+      "icon" : "mdi-soccer"
+    },
+    {
+      "name" : "Musculation",
+      "icon" : "mdi-weight-lifter"
+    },
+    {
+      "name": "Jeux vidéo",
+      "icon": "mdi-sony-playstation"
+    },
+    {
+      "name": "Musique",
+      "icon": "mdi-music"
     }
   ]
 }

@@ -13,9 +13,9 @@
         "class": "fab fa-linkedin"
       },
       {
-        "name": "twitter",
-        "url": "https://www.twitter.com/ludodelavois",
-        "class": "fab fa-twitter"
+        "name": "email",
+        "url": "mailto:ldelavois@outlook.com",
+        "class": "fa fa-envelope"
       }
     ],
     "image": "myProfile.jpg"
