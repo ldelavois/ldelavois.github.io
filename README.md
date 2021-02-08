@@ -23,8 +23,6 @@ Secured and optimized with CloudFare
 
 - [ ] Edit design and colors
 
-- [x] ~~Add responsive nav bar~~
-
 - [ ] Correct pictures scaling
 
 - [ ] Add dynamic button to go back up
@@ -34,6 +32,10 @@ Secured and optimized with CloudFare
 - [ ] Make more Back End projects to connect with this website
 
 - [ ] Host json data into a cloud Database and join with an API
+
+- [x] ~~Add responsive nav bar~~
+
+- [x] ~~Add a Hobbies section~~
 
 
 
