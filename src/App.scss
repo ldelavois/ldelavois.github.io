@@ -6,7 +6,7 @@ html {
  header {
     position: relative;
     height: 80vh;
-    min-height: 450px;
+    min-height: 80vh;
     width: 100%;
     background-size: cover;
     -webkit-background-size: cover;
@@ -17,14 +17,13 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-bottom: 0;
     vertical-align: middle;
  }
 
  .language {
    height: 20vh;
-    font-size: 40px;
-    background-color: #ca6d2d;
+   font-size: 40px;
+   background-color: #ca6d2d;
  }
  
  header h1 {
@@ -32,7 +31,7 @@ html {
     text-align: center;
     font-weight: 600 !important;
     color: #353239; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'opensans-bold', sans-serif;
     margin: 0 auto 18px auto;
     width: 100%;
  }
@@ -58,6 +57,7 @@ html {
  #about {
     background: #fff;
     overflow: hidden;
+    padding-bottom: 5%;
  }
  
  .foto img {
@@ -320,7 +320,7 @@ html {
     min-height: 200px;
     width: 100%;
     overflow: hidden;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
  }
 
 
@@ -328,7 +328,7 @@ html {
  .section-title {
     padding-top: 5%;
     padding-bottom: 5%;
-    font: 18px/24px 'opensans-bold', sans-serif;
+    font: 20px/30px 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #1F1F1F;
@@ -356,7 +356,7 @@ html {
      min-height: 200px;
      width: 100%;
      overflow: hidden;
-     padding-bottom: 10%;
+     padding-bottom: 5%;
   }
 
   .hobbies-icon {
