@@ -48,7 +48,8 @@
       "url": "https://github.com/ldelavois/PFE_datatreatment",
       "technologies": [
         {
-          "class": "devicon-python-plain"
+          "class": "devicon-python-plain",
+          "name": "Python"
         }
       ]
     },
