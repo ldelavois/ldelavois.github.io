@@ -21,7 +21,6 @@ Secured and optimized with CloudFare
 
 <h3>TODO list:</h3>
 
-- [ ] Edit design and colors
 
 - [ ] Correct pictures scaling
 
@@ -32,6 +31,8 @@ Secured and optimized with CloudFare
 - [ ] Make more Back End projects to connect with this website
 
 - [ ] Host json data into a cloud Database and join with an API
+
+- [x] ~~Edit design and colors~~
 
 - [x] ~~Add responsive nav bar~~
 
