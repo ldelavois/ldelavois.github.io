@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 import './App.scss';
-import {ReactNavbar} from "react-responsive-animate-navbar";
+//import {ReactNavbar} from "react-responsive-animate-navbar";
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -83,7 +83,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <ReactNavbar
+        {/* <ReactNavbar
         color="rgb(25, 25, 25)"
         logo="https://svgshare.com/i/KHh.svg"
         menu={[]}
@@ -104,7 +104,7 @@ class App extends Component {
             icon: ["fab", "microsoft"],
           }
         ]}
-      />
+      /> */}
         <Header resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}/>
         <div className="col-md-12 mx-auto text-center language">
