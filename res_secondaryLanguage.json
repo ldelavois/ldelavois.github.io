@@ -53,7 +53,7 @@
     },
     {
       "title": "Biopelagos",
-      "description": "Projet Biopelagos à la CPS de Noué�a (NOUVELLE-CALEDONIE). Création d'une application .NET Windows Forms et gestion de base de donn�es SQL Server. Développement web avec ASP.NET Core et Leaflet.",
+      "description": "Projet Biopelagos à la CPS de Nouméa (NOUVELLE-CALEDONIE). Création d'une application .NET Windows Forms et gestion de base de données SQL Server. Développement web avec ASP.NET Core et Leaflet.",
       "images": [
         "images/portfolio/biopelagos/biopelagos_website.JPG",
         "images/portfolio/biopelagos/spc_logo.png"

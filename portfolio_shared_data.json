@@ -18,7 +18,8 @@
         "class": "fa fa-envelope"
       }
     ],
-    "image": "myProfile.jpg"
+    "image": "myProfile.jpg",
+    "illustration": "gummy-coding.png"
   },
   "skills": {
     "icons": [
