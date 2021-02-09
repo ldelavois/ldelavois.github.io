@@ -6,7 +6,6 @@ html {
  header {
     position: relative;
     height: 80vh;
-    min-height: 80vh;
     width: 100%;
     background-size: cover;
     -webkit-background-size: cover;
@@ -21,16 +20,17 @@ html {
  }
 
  .language {
-   height: 20vh;
-   font-size: 40px;
+   font-size: 5vh;
    background-color: #ca6d2d;
+   height: 20vh;
+   width: 100%;
  }
  
  header h1 {
-    font-size: 400%;
+    font-size: 8vh;
     text-align: center;
     font-weight: 600 !important;
-    color: #353239; 
+    color: #1F1F1F; 
     font-family: 'opensans-bold', sans-serif;
     margin: 0 auto 18px auto;
     width: 100%;
@@ -39,6 +39,10 @@ html {
  .slider-image {
    border: 5px solid #1F1F1F;
  }
+ .slider-image img {
+   object-fit: 'cover';
+ }
+
 
  .slider-tab {
    background-color: #ffffff;
@@ -62,12 +66,13 @@ html {
  
  .foto img {
     display: block;
+    object-fit: cover;
     width: 100%;
  }
  
  .foto div {
     background: #ffffff;
-    display: inline-block;
+    //display: inline-block;
     margin: 0 auto 5% auto;
     padding: 10px 10px 5px;
     text-align: center;
@@ -83,7 +88,7 @@ html {
   }
  
   .foto div:after {
-    color: #333;
+    color: #1F1F1F;
     font-size: 25px;
     content: attr(title);
     position: relative;

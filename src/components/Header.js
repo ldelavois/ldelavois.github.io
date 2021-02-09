@@ -6,7 +6,6 @@ class Header extends Component {
     render() {
         if (this.props.sharedBasicInfo) {
             var name = this.props.sharedBasicInfo.name;
-            var illustration = "images/" + this.props.sharedBasicInfo.illustration;
             var networks = this.props.sharedBasicInfo.social.map(function (network) {
                 return (
                   <span key={network.name} className="m-4">
@@ -24,18 +23,15 @@ class Header extends Component {
         return (
             <header id="home">
                 <div className="row aligner">
-                    <div className="col-md-12">
+                    <div className="col-md-12" style={{marginTop:'20vh'}}>
                         <div>
-                            <h1>
-                            <img src={illustration} alt="Illustration" width="300px" height="300px"></img>
-                            </h1>
                             <h1>
                                 <Typical steps={[name]} wrapper="p" />
                             </h1>
                             <h1>
                                 <Typical steps={[title]} wrapper="p" />
                             </h1>
-                            <h1 className="social-links">{networks}</h1>
+                            <h1>{networks}</h1>
                         </div>
                     </div>
                 </div>
