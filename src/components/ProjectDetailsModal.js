@@ -28,7 +28,7 @@ class ProjectDetailsModal extends Component {
           );
         });
         console.log(this.props.data.url);
-        if (this.props.data.url && this.props.data.url != "" ){
+        if (this.props.data.url && this.props.data.url !== "" ){
           
           var url = (
           <a href={this.props.data.url} target="_blank" rel="noopener noreferrer" className="link-href">
