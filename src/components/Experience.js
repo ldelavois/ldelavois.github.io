@@ -12,9 +12,9 @@ class Experience extends Component {
       var sectionName = this.props.resumeBasicInfo.section_name.experience;
       var work = this.props.resumeExperience.map(function (work, i) {
         const technologies = work.technologies;
-        const mainTechnologies = work.mainTech;
+        const allTypes = work.type;
 
-        var mainTech = mainTechnologies.map((technology, i) => {
+        var type = allTypes.map((technology, i) => {
           return (
             <Badge pill className="main-badge mr-2 mb-2" key={i}>
               {technology}
@@ -34,13 +34,13 @@ class Experience extends Component {
             date={work.years}
             iconStyle={{
               background: "#ffff",
-              color: "#ffff",
-              textAlign: "center",
+              color: "#black",
+              textAlign: "center"
             }}
             key={i}
-          >
+            >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
-              {mainTech}
+              {type}
             </div>
 
             <h3

@@ -21,7 +21,7 @@
         "images/portfolio/smart_parking/smart_parking.jpg",
         "images/portfolio/smart_parking/atos_logo.jpg"
       ],
-      "url": "https://ludovic-delavois.emi.u-bordeaux.fr/stages/Rapport_stage_DELAVOIS_Atos.pdf",
+      "url": "",
       "technologies": [
         {
           "class": "devicon-angularjs-plain",
@@ -79,8 +79,8 @@
       "company": "CIS Valley",
       "title": "Full Stack Developer",
       "years": "12/2020 - Now",
-      "mainTech": [
-        ".NET/.NET Core"
+      "type": [
+        "Full Time"
       ],
       "technologies": [
         ".NET/.NET Core",
@@ -92,8 +92,8 @@
       "company": "ATOS",
       "title": "Full Stack Developer Intern",
       "years": "04/2020 - 10/2020",
-      "mainTech": [
-        "Angular 4"
+      "type": [
+        "Internship"
       ],
       "technologies": [
         "REST API",
@@ -109,14 +109,26 @@
       "company": "SPC",
       "title": "Full Stack Developer Intern",
       "years": "01/2019 - 06/2019",
-      "mainTech": [
-        "ASP.NET Core"
+      "type": [
+        "Internship"
       ],
       "technologies": [
         "SQL Server",
         ".NET",
         "ASP.NET Core",
         "Leaflet"
+      ]
+    },
+    {
+      "company": "University of Bordeaux",
+      "title": "MSc in Computer Science",
+      "years": "2017 - 2020",
+      "type": [
+        "Degree"
+      ],
+      "technologies": [
+        "Java",
+        "C/C++"
       ]
     }
   ],
