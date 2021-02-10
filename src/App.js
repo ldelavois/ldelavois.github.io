@@ -91,7 +91,7 @@ class App extends Component {
         />
         <Header resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}/>
-        <div className="col-md-12 mx-auto text-center language">
+        <div className="col-md-12 text-center language">
             <div
                 onClick={() =>
                 this.applyPickedLanguage(
