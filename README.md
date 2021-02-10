@@ -17,6 +17,7 @@ Secured and optimized with CloudFare
 <a href="https://github.com/catalinmiron/react-typical">React Typical</a> <br/>
 <a href="https://iconify.design/icon-sets/?query=angular">Iconify Design</a> <br/>
 <a href="https://www.w3docs.com/snippets/css/how-to-create-polaroid-image-with-css.html#">Polaroid effect</a> <br/>
+<a href="https://www.npmjs.com/package/@gmana/react-go-top">React Go To Top</a> <br/>
 <!-- <a href="https://tholman.com/github-corners/">GitHub Ref Corner</a> -->
 
 <h3>TODO list:</h3>
@@ -24,13 +25,13 @@ Secured and optimized with CloudFare
 
 - [ ] Correct pictures scaling
 
-- [ ] Add dynamic button to go back up
-
 - [ ] Add github info via github API
 
 - [ ] Make more Back End projects to connect with this website
 
 - [ ] Host json data into a cloud Database and join with an API
+
+- [x] ~~Add dynamic button to go back up~~
 
 - [x] ~~Edit design and colors~~
 
