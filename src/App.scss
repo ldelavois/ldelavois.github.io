@@ -27,7 +27,7 @@ html {
  }
  
  header h1 {
-    font-size: 8vh;
+    font-size: 60px;;
     text-align: center;
     font-weight: 600 !important;
     color: #1F1F1F; 
@@ -197,8 +197,9 @@ html {
  .vertical-timeline-element-date {
     padding: 0 !important;
     margin: 0 !important;
-    font-size: 12px !important;
+    font-size: 14px !important;
     color: black;
+    font-weight: bold;
  }
 
  @media only screen and (max-width: 1170px) {
@@ -209,9 +210,9 @@ html {
     }
  }
 
- .modal-inside .modal-content {
-   background: white;
- }
+//  .modal-inside .modal-content {
+//    background: white;
+//  }
 
  .bars {
      width: 95%;
@@ -269,7 +270,7 @@ html {
     text-align: justify;
     padding: 5px 5px 0 5px;
     margin-bottom: 20px;
-    font-size: 12px;
+    font-size: 14px;
  }
  
  .awssld__next {
@@ -296,9 +297,9 @@ html {
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
-	-webkit-transition: all ease 0.5s;
-	-moz-transition: all ease 0.5s;
-	transition: all ease 0.5s;
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
 	opacity: 0;
 	background-color: rgba(51, 51, 51, 0.9);
 }
@@ -333,7 +334,7 @@ html {
  .section-title {
     padding-top: 5%;
     padding-bottom: 5%;
-    font: 20px/30px 'opensans-bold', sans-serif;
+    font: 30px/40px 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #1F1F1F;
@@ -342,7 +343,7 @@ html {
    }
    
    .skill-icon {
-      font-size: 180%;
+      font-size: 20px;
       color: #1F1F1F;
       text-align: center;
       position: relative;
@@ -365,7 +366,7 @@ html {
   }
 
   .hobbies-icon {
-   font-size: 180%;
+   font-size: 18px;
    color: #1F1F1F;
    text-align: center;
    position: relative;
@@ -384,7 +385,7 @@ html {
       min-height: 100px;
       width: 100%;
       overflow: hidden;
-      font-size: 14px;
+      font-size: 20px;
     color: white;
     position: relative;
     text-align: center;

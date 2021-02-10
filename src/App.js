@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 import './App.scss';
+import Gotop from 'react-go-top';
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -8,6 +9,7 @@ import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Hobbies from './components/Hobbies';
 import Footer from './components/Footer';
+
 
 class App extends Component {
   constructor(props) {
@@ -82,6 +84,11 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Gotop 
+          style={{width:"55px", height:"55px"}}
+          visibilityHeight={600} 
+          target={()=>document.getElementById('app')} 
+        />
         <Header resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}/>
         <div className="col-md-12 mx-auto text-center language">
