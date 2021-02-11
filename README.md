@@ -23,7 +23,7 @@ Secured and optimized with CloudFare
 <h3>TODO list:</h3>
 
 
-- [ ] Correct pictures scaling
+- [ ] Correct pictures scaling (in Project modal), fixed on Projects section
 
 - [ ] Add github info via github API
 
