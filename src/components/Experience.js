@@ -64,13 +64,9 @@ class Experience extends Component {
     return (
       <section id="experience">
         <div className="col-md-12 mx-auto">
-          <div className="col-md-12">
-            <h1 className="section-title" style={{ color: "black" }}>
-              <span className="text-black" style={{ textAlign: "center" }}>
+            <h1 className="section-title">
                 {sectionName}
-              </span>
             </h1>
-          </div>
         </div>
         <div className="col-md-8 mx-auto">
           <VerticalTimeline>

@@ -10,7 +10,7 @@ class Hobbies extends Component {
             <span>
               <div className="text-center hobbies-tile">
               <i data-icon={hobbies.icon}
-              className="iconify" style={{ fontSize: '200%' }}>
+              className="iconify" style={{ fontSize: '50px' }}>
                   </i>
                   <p className="text-center" style={{ marginTop: '4px' }}>
                     {hobbies.name}

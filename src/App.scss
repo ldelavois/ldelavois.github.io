@@ -45,11 +45,6 @@ html {
  }
 
 
- .slider-tab {
-   background-color: #ffffff;
-   height: 25px;
-}
-
  .slider-iconfiy {
    margin-top: 10px;
  }
@@ -207,10 +202,6 @@ html {
     }
  }
 
-//  .modal-inside .modal-content {
-//    background: white;
-//  }
-
  .bars {
      width: 95%;
      float: left;
@@ -340,10 +331,10 @@ html {
    }
    
    .skill-icon {
-      font-size: 20px;
       color: #1F1F1F;
       text-align: center;
       position: relative;
+      font-size: 20px;
    }
    
    .skills-tile {
@@ -352,6 +343,7 @@ html {
       width: 110px;
       margin: 5px 0 5px 0;
       border-radius: 8px;
+   
    }
    
    #hobbies {
@@ -363,7 +355,7 @@ html {
   }
 
   .hobbies-icon {
-   font-size: 18px;
+   font-size: 20px;
    color: #1F1F1F;
    text-align: center;
    position: relative;
@@ -372,7 +364,7 @@ html {
  .hobbies-tile {
   background-color: transparentize(#1F1F1F, 0.95);
   padding: 10px 10px 5px 10px;
-  width: 130px;
+  width: 140px;
   margin: 5px 0 5px 0;
   border-radius: 8px;
 }
