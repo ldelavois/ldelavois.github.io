@@ -18,7 +18,7 @@ class ProjectDetailsModal extends Component {
               <span>
                 <div className="text-center skill-tile">
                   <i className={icons.class} style={{ fontSize: '200%' }}>
-                    <p className="text-center" style={{ fontSize: '30%' }}>
+                    <p className="text-center" style={{ fontSize: '20px', fontFamily:'Segoe UI' }}>
                       {icons.name}
                     </p>
                   </i>
@@ -27,7 +27,6 @@ class ProjectDetailsModal extends Component {
             </li>
           );
         });
-        console.log(this.props.data.url);
         if (this.props.data.url && this.props.data.url !== "" ){
           
           var url = (
@@ -61,14 +60,14 @@ class ProjectDetailsModal extends Component {
           <div className="col-md-10 mx-auto" style={{ paddingBottom: '50px' }}>
             <AwesomeSlider
               cssModule={AwesomeSliderStyles}
-              animation="scaleOutAnimation"
+              animation="basicUsageAnimation"
               className="slider-image"
             >
               {img}
             </AwesomeSlider>
           </div>
           <div className="col-md-10 mx-auto">
-            <h2 >{title}
+            <h2 className="project-title-settings">{title}
             {url}
             </h2>
             <p className="modal-description">{description}</p>
