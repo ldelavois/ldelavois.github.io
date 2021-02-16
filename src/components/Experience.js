@@ -30,12 +30,12 @@ class Experience extends Component {
         });
         return (
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element-work"
             date={work.years}
             iconStyle={{
               background: "#ffff",
               color: "#black",
-              textAlign: "center"
+              textAlign: "center",
             }}
             key={i}
             >
@@ -45,13 +45,13 @@ class Experience extends Component {
 
             <h3
               className="vertical-timeline-element-title"
-              style={{ textAlign: "left" }}
+              style={{ textAlign: "left", fontSize: '20px', fontWeight: 'bold' }}
             >
               {work.title}
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
-              style={{ textAlign: "left" }}
+              style={{ textAlign: "left", fontSize: '18px'}}
             >
               {work.company}
             </h4>

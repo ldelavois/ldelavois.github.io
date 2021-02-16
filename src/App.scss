@@ -1,5 +1,5 @@
 html {
-    font-size: 62.5%;
+    font-size: 18px;
     -webkit-font-smoothing: antialiased;
  }
  
@@ -28,7 +28,7 @@ html {
  }
  
  header h1 {
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     font-weight: 600 !important;
     color: #1F1F1F; 
@@ -57,7 +57,7 @@ html {
  #about {
     background: #fff;
     overflow: hidden;
-    padding-bottom: 5%;
+    padding-bottom: 60px;
  }
  
  .foto img {
@@ -102,7 +102,7 @@ html {
   }
    
   .project-title-settings {
-    margin-top: 5%;
+    margin-top: 20px;
     font: 18px/24px 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -155,12 +155,12 @@ html {
  
  #experience {
    background: #ca6d2d;
-   padding-bottom: 5%;
+   padding-bottom: 60px;
  }
  
  .experience-icon {
-    font-size: 300%;
-    margin-top: 25%;
+    font-size: 30px;
+    margin-top: 15px;
     text-align: center;
  }
  
@@ -191,58 +191,17 @@ html {
     margin: 0 !important;
     font-size: 14px !important;
     color: black;
-    font-weight: bold;
+    font-weight: bolder;
  }
 
  @media only screen and (max-width: 1170px) {
     .experience-icon {
-       font-size: 170%;
-       margin-top: 27%;
+       font-size: 20px;
+       margin-top: 10px;
        text-align: center;
     }
  }
 
- .bars {
-     width: 95%;
-     float: left;
-     padding: 0;
-     text-align: left;
- }
- .bars .skills {
-       margin-top: 36px;
-    list-style: none;
- }
- .bars li {
-    position: relative;
-       margin-bottom: 60px;
-       background: #ccc;
-       height: 42px;
-       border-radius: 3px;
- }
- 
- .bars li em {
-     font: 15px 'opensans-bold', sans-serif;
-    color: #313131;
-     text-transform: uppercase;
-    letter-spacing: 2px;
-     font-weight: normal;
-    position: relative;
-     top: -36px;
- }
- 
- .bar-expand {
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 0;
-    padding-right: 24px;
-       background: #313131;
-    display: inline-block;
-       height: 42px;
-    line-height: 42px;
-    border-radius: 3px 0 0 3px;
- }
- 
  .modal-close {
     text-align: right;
     padding: 10px 15px 10px 15px;
@@ -262,26 +221,14 @@ html {
     font-family:  'opensans-bold', sans-serif;
  }
  
- .awssld__next {
-    outline: none !important;
- }
- 
- .awssld__prev {
-    outline: none !important;
- }
- 
- .loader-bar-color {
-    color: black !important;
- }
- 
  #portfolio {
 	background: #ca6d2d;
-	padding-bottom: 5%;
+	padding-bottom: 60px;
 }
 
 .portfolio-item {
 	max-width: 100%;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 	text-align: center;
 }
 
@@ -315,14 +262,14 @@ html {
     min-height: 200px;
     width: 100%;
     overflow: hidden;
-    padding-bottom: 5%;
+    padding-bottom: 60px;
  }
 
 
  
  .section-title {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 60px;
+    padding-bottom: 60px;
     font: 30px/40px 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -335,12 +282,11 @@ html {
       color: #1F1F1F;
       text-align: center;
       position: relative;
-      font-size: 20px;
    }
    
    .skills-tile {
       background-color: transparentize(#1F1F1F, 0.95);
-      padding: 10px 10px 5px 10px;
+      padding: 10px 10px 1px 10px;
       width: 110px;
       margin: 5px 0 5px 0;
       border-radius: 8px;
@@ -352,11 +298,10 @@ html {
      min-height: 200px;
      width: 100%;
      overflow: hidden;
-     padding-bottom: 5%;
+     padding-bottom: 60px;
   }
 
   .hobbies-icon {
-   font-size: 20px;
    color: #1F1F1F;
    text-align: center;
    position: relative;
@@ -375,10 +320,9 @@ html {
       min-height: 100px;
       width: 100%;
       overflow: hidden;
-      font-size: 20px;
-    color: white;
-    position: relative;
-    text-align: center;
+      color: white;
+      position: relative;
+      text-align: center;
  }
  
  footer a, footer a:visited { color: #fff; }
