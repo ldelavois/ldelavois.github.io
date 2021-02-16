@@ -41,7 +41,6 @@ class About extends Component {
                     }}
                   >
                       <h3>{hello}</h3>
-                      <br/>
                     {about}
                   </div>
                 </div>
