@@ -1,5 +1,5 @@
 <h1>Ludovic DELAVOIS website</h1>
-<img align="left" src="https://github.com/leungwensen/svg-icon/blob/master/dist/svg/logos/react.svg" height="50" alt="react icon"/>
+<img text-align="left" src="https://github.com/leungwensen/svg-icon/blob/master/dist/svg/logos/react.svg" height="50" alt="react icon"/>
 
 Check my website at <a href="https://delavois.com">delavois.com</a>.
 
@@ -12,7 +12,7 @@ Secured and optimized with CloudFare
 
 <h3>Preview</h3>
 
-<img src="delavois.gif" alt="preview"/>
+<img src="public/images/preview.gif" alt="preview"/>
 Gif made with <a href="https://github.com/glgoose/gif-scroll-animation">gif-scroll-animation</a>
 (emojis bug on this gif but not on the website)
 
@@ -28,14 +28,13 @@ Gif made with <a href="https://github.com/glgoose/gif-scroll-animation">gif-scro
 
 <h3>TODO list:</h3>
 
-
-- [ ] Correct pictures scaling (in Project modal), fixed on Projects section
-
 - [ ] Add github info via github API
 
 - [ ] Make more Back End projects to connect with this website
 
 - [ ] Host json data into a cloud Database and join with an API
+
+- [x] ~~Correct projects pictures scaling~~
 
 - [x] ~~Add dynamic button to go back up~~
 
