@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import {Collapse} from 'react-collapse';
+//import {Collapse} from 'react-collapse';
 class Hobbies extends Component {
 
   // constructor(props) {
