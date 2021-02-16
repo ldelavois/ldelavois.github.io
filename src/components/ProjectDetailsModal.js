@@ -16,9 +16,9 @@ class ProjectDetailsModal extends Component {
           return (
             <li className="list-inline-item mx-3" key={i}>
               <span>
-                <div className="text-center">
-                  <i className={icons.class} style={{ fontSize: '300%' }}>
-                    <p className="text-center" style={{ fontSize: '30%' }}>
+                <div className="text-center skill-tile">
+                  <i className={icons.class} style={{ fontSize: '40px'}}>
+                    <p className="text-center" style={{ fontSize: '20px', fontFamily:'Segoe UI' }}>
                       {icons.name}
                     </p>
                   </i>
@@ -27,7 +27,6 @@ class ProjectDetailsModal extends Component {
             </li>
           );
         });
-        console.log(this.props.data.url);
         if (this.props.data.url && this.props.data.url !== "" ){
           
           var url = (
@@ -59,23 +58,21 @@ class ProjectDetailsModal extends Component {
         </span>
         <div className="col-md-12">
           <div className="col-md-10 mx-auto" style={{ paddingBottom: '50px' }}>
-            <div className="slider-tab" style={{backgroundColor:"#ffffff"}}>
-            </div>
             <AwesomeSlider
               cssModule={AwesomeSliderStyles}
-              animation="scaleOutAnimation"
+              animation="basicUsageAnimation"
               className="slider-image"
             >
               {img}
             </AwesomeSlider>
           </div>
           <div className="col-md-10 mx-auto">
-            <h3 style={{ padding: '5px 5px 0 5px' }}>{title}
+            <h2 className="project-title-settings">{title}
             {url}
-            </h3>
+            </h2>
             <p className="modal-description">{description}</p>
             <div className="col-md-12 text-center">
-              <ul className="list-inline mx-auto">{tech}</ul>
+              <ul className="list-inline mx-auto skill-icon">{tech}</ul>
             </div>
           </div>
         </div>

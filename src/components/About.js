@@ -17,8 +17,8 @@ class About extends Component {
           <h1 className="section-title">
             <span>{sectionName}</span>
           </h1>
-          <div className="row center mx-auto mb-5">
-            <div className="col-md-4 mb-5 center">
+          <div className="row center mx-auto">
+            <div className="col-md-4 center">
               <div className="polaroid">
                 <span style={{ cursor: 'auto' }}>
                   <img
@@ -37,14 +37,10 @@ class About extends Component {
                     className="card-body font-trebuchet text-justify ml-3 mr-3"
                     style={{
                       height: 'auto',
-                      fontSize: '180%',
                       lineHeight: '200%',
                     }}
                   >
-                    <br />
-                      <span className="wave">{hello}</span>
-                    <br />
-                    <br />
+                      <h3>{hello}</h3>
                     {about}
                   </div>
                 </div>

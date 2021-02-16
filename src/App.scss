@@ -1,5 +1,5 @@
 html {
-    font-size: 62.5%;
+    font-size: 18px;
     -webkit-font-smoothing: antialiased;
  }
  
@@ -28,7 +28,7 @@ html {
  }
  
  header h1 {
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     font-weight: 600 !important;
     color: #1F1F1F; 
@@ -45,11 +45,6 @@ html {
  }
 
 
- .slider-tab {
-   background-color: #ffffff;
-   height: 25px;
-}
-
  .slider-iconfiy {
    margin-top: 10px;
  }
@@ -62,7 +57,7 @@ html {
  #about {
     background: #fff;
     overflow: hidden;
-    padding-bottom: 5%;
+    padding-bottom: 60px;
  }
  
  .foto img {
@@ -107,7 +102,7 @@ html {
   }
    
   .project-title-settings {
-    margin-top: 5%;
+    margin-top: 20px;
     font: 18px/24px 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -140,11 +135,6 @@ html {
   .link-href {
      color: black;
   }
- 
- .wave {
-    font-size: 160%;
- }
- 
  .font-trebuchet {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
@@ -163,13 +153,14 @@ html {
     align-items: center;
  }
  
- #resume {
+ #experience {
    background: #ca6d2d;
+   padding-bottom: 60px;
  }
  
  .experience-icon {
-    font-size: 300%;
-    margin-top: 25%;
+    font-size: 30px;
+    margin-top: 15px;
     text-align: center;
  }
  
@@ -185,7 +176,7 @@ html {
  }
  
  .experience-badge {
-    font-size: 12px !important;
+    font-size: 14px !important;
     text-align: left !important;
     padding: 5px 8px 5px 8px !important;
     vertical-align: baseline;
@@ -200,62 +191,17 @@ html {
     margin: 0 !important;
     font-size: 14px !important;
     color: black;
-    font-weight: bold;
+    font-weight: bolder;
  }
 
  @media only screen and (max-width: 1170px) {
     .experience-icon {
-       font-size: 170%;
-       margin-top: 27%;
+       font-size: 20px;
+       margin-top: 10px;
        text-align: center;
     }
  }
 
-//  .modal-inside .modal-content {
-//    background: white;
-//  }
-
- .bars {
-     width: 95%;
-     float: left;
-     padding: 0;
-     text-align: left;
- }
- .bars .skills {
-       margin-top: 36px;
-    list-style: none;
- }
- .bars li {
-    position: relative;
-       margin-bottom: 60px;
-       background: #ccc;
-       height: 42px;
-       border-radius: 3px;
- }
- 
- .bars li em {
-     font: 15px 'opensans-bold', sans-serif;
-    color: #313131;
-     text-transform: uppercase;
-    letter-spacing: 2px;
-     font-weight: normal;
-    position: relative;
-     top: -36px;
- }
- 
- .bar-expand {
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 0;
-    padding-right: 24px;
-       background: #313131;
-    display: inline-block;
-       height: 42px;
-    line-height: 42px;
-    border-radius: 3px 0 0 3px;
- }
- 
  .modal-close {
     text-align: right;
     padding: 10px 15px 10px 15px;
@@ -271,29 +217,18 @@ html {
     text-align: justify;
     padding: 5px 5px 0 5px;
     margin-bottom: 20px;
-    font-size: 14px;
- }
- 
- .awssld__next {
-    outline: none !important;
- }
- 
- .awssld__prev {
-    outline: none !important;
- }
- 
- .loader-bar-color {
-    color: black !important;
+    font-size: 16px;
+    font-family:  'opensans-bold', sans-serif;
  }
  
  #portfolio {
 	background: #ca6d2d;
-	padding-bottom: 5%;
+	padding-bottom: 60px;
 }
 
 .portfolio-item {
 	max-width: 100%;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 	text-align: center;
 }
 
@@ -327,14 +262,14 @@ html {
     min-height: 200px;
     width: 100%;
     overflow: hidden;
-    padding-bottom: 5%;
+    padding-bottom: 60px;
  }
 
 
  
  .section-title {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 60px;
+    padding-bottom: 60px;
     font: 30px/40px 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -344,7 +279,6 @@ html {
    }
    
    .skill-icon {
-      font-size: 20px;
       color: #1F1F1F;
       text-align: center;
       position: relative;
@@ -352,10 +286,11 @@ html {
    
    .skills-tile {
       background-color: transparentize(#1F1F1F, 0.95);
-      padding: 10px 10px 5px 10px;
+      padding: 10px 10px 1px 10px;
       width: 110px;
       margin: 5px 0 5px 0;
       border-radius: 8px;
+   
    }
    
    #hobbies {
@@ -363,11 +298,10 @@ html {
      min-height: 200px;
      width: 100%;
      overflow: hidden;
-     padding-bottom: 5%;
+     padding-bottom: 60px;
   }
 
   .hobbies-icon {
-   font-size: 18px;
    color: #1F1F1F;
    text-align: center;
    position: relative;
@@ -375,8 +309,8 @@ html {
 
  .hobbies-tile {
   background-color: transparentize(#1F1F1F, 0.95);
-  padding: 10px 10px 5px 10px;
-  width: 130px;
+  padding: 10px 10px 1px 10px;
+  width: 140px;
   margin: 5px 0 5px 0;
   border-radius: 8px;
 }
@@ -386,10 +320,9 @@ html {
       min-height: 100px;
       width: 100%;
       overflow: hidden;
-      font-size: 20px;
-    color: white;
-    position: relative;
-    text-align: center;
+      color: white;
+      position: relative;
+      text-align: center;
  }
  
  footer a, footer a:visited { color: #fff; }
