@@ -1,8 +1,8 @@
 {
   "basic_info": {
-    "title": "Développeur Full Stack",
+    "title": "Développeur logiciels",
     "description_header": "Bonjour! 👋 Bienvenue sur mon site web!",
-    "description": "Je m'appelle Ludovic DELAVOIS et j'habite à Bordeaux 🍷. Je suis développeur Full Stack .NET travaillant chez CIS Valley 💼. Je possède également plusieurs expériences en Spring/Angular et .NET Core. Ce site web a été créé pour montrer mes projets et monter en compétences 📚.",
+    "description": "Je m'appelle Ludovic DELAVOIS et j'habite à Bordeaux 🍷. Je suis développeur logiciels travaillant chez CIS Valley 💼. Je possède également plusieurs expériences en Spring/Angular et .NET Core. Ce site web a été créé pour montrer mes projets et monter en compétences 📚.",
     "section_name": {
       "home" : "Accueil",
       "about": "A propos",
@@ -74,7 +74,7 @@
   "experience": [
     {
       "company": "CIS Valley",
-      "title": "Developpeur Full Stack",
+      "title": "Developpeur logiciels",
       "years": "12/2020 - Maintenant",
       "type": [
         "CDI"
@@ -87,7 +87,7 @@
     },
     {
       "company": "ATOS",
-      "title": "Stagiaire développeur Full Stack",
+      "title": "Stagiaire développeur web & IoT",
       "years": "04/2020 - 10/2020",
       "type": [
         "Stage"
@@ -104,7 +104,7 @@
     },
     {
       "company": "La CPS",
-      "title": "Stagiaire développeur Full Stack",
+      "title": "Stagiaire développeur web",
       "years": "01/2019 - 06/2019",
       "type": [
         "Stage"
