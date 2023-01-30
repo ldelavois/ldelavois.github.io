@@ -25,13 +25,11 @@ class Header extends Component {
                 <div className="row aligner">
                     <div className="col-md-12" style={{marginTop:'20vh'}}>
                         <div>
-                            <h1>
-                                <Typical steps={[name]} wrapper="p" />
-                            </h1>
-                            <h1>
+                            <h1>{name}</h1>
+                            <h2 style={{minHeight:'60px'}}>
                                 <Typical steps={[title]} wrapper="p" />
-                            </h1>
-                            <h1>{networks}</h1>
+                            </h2>
+                            <div style={{fontSize:'50px'}}>{networks}</div>
                         </div>
                     </div>
                 </div>
