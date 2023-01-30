@@ -16,7 +16,7 @@
     "react-dom": "^16.13.1",
     "react-ga": "^3.1.2",
     "react-go-top": "^1.1.1",
-    "react-scripts": "^4.0.2",
+    "react-scripts": "^5.0.1",
     "react-switch": "^5.0.1",
     "react-typical": "^0.1.3",
     "react-vertical-timeline-component": "^3.3.1"
@@ -48,6 +48,6 @@
     "@iconify/icons-logos": "^1.0.12",
     "@iconify/react": "^1.1.3",
     "gh-pages": "^3.1.0",
-    "node-sass": "^4.14.1"
+    "node-sass": "^8.0.0"
   }
 }
