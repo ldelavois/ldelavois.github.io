@@ -2,7 +2,7 @@
   "basic_info": {
     "title": "Développeur logiciels",
     "description_header": "Bonjour! 👋 Bienvenue sur mon site web!",
-    "description": "Je m'appelle Ludovic DELAVOIS et j'habite à Bordeaux 🍷. Je suis développeur logiciels travaillant chez CIS Valley 💼. Je possède également plusieurs expériences en Spring/Angular et .NET Core. Ce site web a été créé pour montrer mes projets et monter en compétences 📚.",
+    "description": "Je m'appelle Ludovic DELAVOIS et j'habite à Bordeaux 🍷. Je suis développeur logiciels travaillant chez Avanade 💼. J'ai plusieurs expériences en Angular, .NET et Spring Java. Ce site web a été créé pour montrer mes projets et monter en compétences 📚.",
     "section_name": {
       "home" : "Accueil",
       "about": "A propos",
@@ -72,10 +72,22 @@
     }
   ],
   "experience": [
+  {
+    "company": "Avanade",
+    "title": "Développeur logiciels",
+    "years": "05/2022 - Maintenant",
+    "type": [
+      "CDI"
+    ],
+    "technologies": [
+      ".NET/.NET Core",
+      "Angular"
+    ]
+  },
     {
       "company": "CIS Valley",
-      "title": "Developpeur logiciels",
-      "years": "12/2020 - Maintenant",
+      "title": "Développeur logiciels",
+      "years": "12/2020 - 04/2022",
       "type": [
         "CDI"
       ],
