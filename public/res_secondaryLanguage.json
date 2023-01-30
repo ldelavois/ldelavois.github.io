@@ -72,10 +72,22 @@
     }
   ],
   "experience": [
+  {
+    "company": "Avanade",
+    "title": "Développeur logiciels",
+    "years": "05/2022 - Maintenant",
+    "type": [
+      "CDI"
+    ],
+    "technologies": [
+      ".NET/.NET Core",
+      "Angular"
+    ]
+  },
     {
       "company": "CIS Valley",
-      "title": "Developpeur logiciels",
-      "years": "12/2020 - Maintenant",
+      "title": "Développeur logiciels",
+      "years": "12/2020 - 04/2022",
       "type": [
         "CDI"
       ],

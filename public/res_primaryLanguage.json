@@ -76,9 +76,21 @@
   ],
   "experience": [
     {
+      "company": "Avanade",
+      "title": "Software Developer",
+      "years": "05/2022 - Now",
+      "type": [
+        "Full Time"
+      ],
+      "technologies": [
+        ".NET/.NET Core",
+        "Angular"
+      ]
+    },
+    {
       "company": "CIS Valley",
       "title": "Software Developer",
-      "years": "12/2020 - Now",
+      "years": "12/2020 - 04/2022",
       "type": [
         "Full Time"
       ],
