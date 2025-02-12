@@ -42,7 +42,7 @@ Gif made with <a href="https://github.com/glgoose/gif-scroll-animation">gif-scro
 
 - [x] ~~Add responsive nav bar~~
 
-- [x] ~~Add a Hobbies section~~
+- [x] ~~Add a Hobbies section~~ 
 
 
 
