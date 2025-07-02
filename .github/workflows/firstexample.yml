@@ -1,0 +1,25 @@
+name: ldelavois.github.io
+on: push
+
+
+jobs:
+  unit-testing:
+    name: Unit Testing
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        cmd: [test]
+
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+
+      - name: Install Node.js on ${{ matrix.os }}
+        run: echo "Installing Node.js on ${{ matrix.os }}"
+
+
+      - name: Run tests
+        run: echo "npm ${{ matrix.cmd }}"
